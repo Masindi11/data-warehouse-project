@@ -6,7 +6,7 @@ Script purpose:
 This script creates a new database named 'DataWarehouse' after checking if it already exist.
 if the database exist, it is dropped and recreated. Additionall, the script sets up three schemas within t
 the database: 'bronze', 'sliver', and 'gold'.
-/*
+*/
 
 
 
