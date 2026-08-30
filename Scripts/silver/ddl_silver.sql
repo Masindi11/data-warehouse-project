@@ -7,7 +7,7 @@ Scripts purpose:
     they already exist.
 Run this script to re-define the DDL structure of 'bronze' Tables
 ======================================================================================
-/*
+*/
 
 
 IF OBJECT_ID ('silver.crm_cust_info' , 'U') IS NOT NULL
