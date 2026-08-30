@@ -32,3 +32,4 @@ CASE WHEN sls_price is NULL OR sls_price <= 0
       THEN sls_sales / NULLIF(sls_quantity, 0)
  ELSE sls_price       -- derive price if original value is invalid
 END AS sls_price 
+FROM bronze.crm_sales_details
