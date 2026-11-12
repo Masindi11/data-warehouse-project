@@ -4,8 +4,9 @@ Overview
 The Gold Layer is the business-level data representation, structure to support analytical and reporting use cases. It consists of dimensions tables and fact tables 
 for specific business metrics
 
-* Gold.dim_customers
+1 gold.dim_customers
   = Purpose: Stores customer details enriched with demographic and geographic data.
+  
   = Columns:
 
 | Column Name    |   Data Type    |   Description |
@@ -21,8 +22,9 @@ gender         | NVARCHAR(50)   | The gender of the customer (e.g., 'Female', 'M
 birthdate      | DATE           | The date of birth of the customer, formatted as YYYY-MM-DD (e.g., 1978-10-09).
 create_date    | DATE           | The date and time when the customer record was created in the system
 
-* Gold.dim_products
+2 gold.dim_products
 = Purpose: Provides information about the product and their attributes.
+
 = Columns:
 
 Column Name   | Data Type       |      Description
@@ -40,8 +42,9 @@ product_line  | NVARCHAR(50)    | The specific product line or series to which t
 start_date    | DATE            | The date when the product became available for sale or use, stored in
 
 
-*Gold.fact_sales
+3 gold.fact_sales
 = Purpose: Stores transactional sales data for analytical purpose.
+
 = Columns:
 
 Column Name  | Data Type     | Description
