@@ -7,10 +7,11 @@ for specific business metrics
 * Gold.dim_customers
   = Purpose: Stores customer details enriched with demographic and geographic data.
   = Columns:
-  
-Column Name    |   Data Type    |   Description
-customer_key   | INT            | Surrogate key unique identifying each customer record in the dimension table.
-customer_id    | INT            | Unique numerical identifier assigned to each customer.
+
+| Column Name    |   Data Type    |   Description |
+|-------------|-----------|----------|
+| customer_key   | INT            | Surrogate key unique identifying each customer record in the dimension table. |
+| customer_id    | INT            | Unique numerical identifier assigned to each customer. |
 customer_number| NVARCHAR(50)   | Alphanumeric identifier representing the customer, used for tracking and referencing.
 first_name     | NVARCHAR(50)   | The customer's first name, as recorded in the system.
 last_name      | NVARCHAR(50)   | The customer's last name or family name.
@@ -25,6 +26,7 @@ create_date    | DATE           | The date and time when the customer record was
 = Columns:
 
 Column Name   | Data Type       |      Description
+|-------------|-----------------|----------------|
 product_key   | INT             | Surrogate key unique identifying each product  record in the product dimension table.
 product_id    | INT             | A unique identifier assigned to the  product for internal tracking and referencing.
 product_number| NVARCHAR(50)    | A structured alphanumeric code representing the product, often used for categorization  or inventory.
